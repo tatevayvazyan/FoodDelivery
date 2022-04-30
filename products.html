@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-left">
+                <div>
+                    <span class="food-text">Food</span>
+                    <span class="delivery-text">delivery</span>
+                </div>
+                <form class="search-form">
+                    <input
+                        class="search"
+                        type="text"
+                        name="search"
+                        placeholder="Search.."
+                    >
+                    <i class="fa fa-search search-icon"></i>
+                </form> 
+            </div>
+            <div class="header-right">
+                <nav class="header-menu">
+                    <ul class="header-menu-list">
+                        <li class="list-item">Restaurants</li>
+                        <li class="list-item border">Deals</li>
+                        <li class="list-item">My Orders</li>
+                    </ul>
+                </nav>
+                <button class="basket-button">
+                    <i class="fa-solid fa-bag-shopping basket"></i>
+                </button>
+                <div class="avatar">
+                    <img src="./assets/img.png" alt="avatar" class="avatar-img">
+                </div>
+            </div> 
+        </header>
+
+        <main class="main">
+            <div class="grid-discount">
+                <div class="discount-item item1">
+                    <img src="./assets/cupcake.png" alt="deser img" class="cupcake-img">
+                    <div class="info">
+                        <h5 class="info-title">All Deserts</h5>
+                        <h2 class="info-discount">20% OFF</h2>
+                        <span class="info-more">Deserty</span>
+                    </div>
+                </div>
+                <div class="discount-item item2">
+                    <img src="./assets/burger.png" alt="fooddies img" class="burger-img">
+                    <div class="info">
+                        <h5 class="info-title">Big Burgers</h5>
+                        <h2 class="info-discount">50% OFF</h2>
+                        <span class="info-more">Fooddies</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-category">
+                <div class="category-item category1">
+                    <img src="./assets/pizza.png" alt="pizza" class="category-img">
+                    <span class="category-text">Pizza</span>
+                </div>
+                <div class="category-item category2">
+                    <img src="./assets/bg.png" alt="burger" class="category-img">
+                    <span class="category-text">Burger</span>
+                </div>
+                <div class="category-item category3">
+                    <img src="./assets/meat.png" alt="bbq" class="category-img">
+                    <span class="category-text">BBQ</span>
+                </div>
+                <div class="category-item category4">
+                    <img src="./assets/sushi.png" alt="sushi" class="category-img">
+                    <span class="category-text">Sushi</span>
+                </div>
+                <div class="category-item category5">
+                    <img src="./assets/broccoli.png" alt="vegan" class="category-img">
+                    <span class="category-text">Vegan</span>
+                </div>
+                <div class="category-item category6">
+                    <img src="./assets/cake.png" alt="desserts" class="category-img">
+                    <span class="category-text">Desserts</span>
+                </div>
+            </div>
+            <h5 class="restaurants-title">Nearby Restaurants</h5>
+            <div class="grid-restaurant">
+                <div class="restaurant-item restaurant1">
+                    <img src="./assets/sushi-card.png" alt="sushi card" class="restaurant-img">
+                    <div class="restaurant-content">
+                        <h6 class="restaurant-name">Royal Sushi House</h6>
+                        <i class="fa-solid fa-bag-shopping restaurant-basket"></i>
+                    </div>
+                    <div class="restaurant-info">
+                        <i class="fa-solid fa-clock clock"></i>
+                        <span class="restaurant-time">30-40 min</span>
+                        <span class="ketik"></span>
+                        <span class="restaurant-time">$32 min sum</span>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="./assets/sushi.png" alt="sushi" class="card-img">
+                        <span class="card-text">Sushi</span>
+                    </div>
+                </div>
+                <div class="restaurant-item restaurant2">
+                    <img src="./assets/burger-card.png" alt="sushi card" class="restaurant-img">
+                    <div class="restaurant-content">
+                        <h6 class="restaurant-name">Burger and Pizza</h6>
+                        <i class="fa-solid fa-bag-shopping restaurant-basket"></i>
+                    </div>
+                    <div class="restaurant-info">
+                        <i class="fa-solid fa-clock clock"></i>
+                        <span class="restaurant-time">40-60 min</span>
+                        <span class="ketik"></span>
+                        <span class="restaurant-time">$24 min sum</span>
+                    </div>
+                    <div class="card-container">
+                        <div class="restaurant-card card-left">
+                            <img src="./assets/bg.png" alt="sushi" class="card-img">
+                            <span class="card-text">Sushi</span>
+                        </div>
+                        <div class="restaurant-card card-right">
+                            <img src="./assets/pizza.png" alt="sushi" class="card-img">
+                            <span class="card-text">Sushi</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="restaurant-item restaurant3">
+                    <img src="./assets/sushi2-card.png" alt="sushi card" class="restaurant-img">
+                    <div class="restaurant-content">
+                        <h6 class="restaurant-name">Ninja Sushi</h6>
+                        <i class="fa-solid fa-bag-shopping restaurant-basket"></i>
+                    </div>
+                    <div class="restaurant-info">
+                        <i class="fa-solid fa-clock clock"></i>
+                        <span class="restaurant-time">20-40 min</span>
+                        <span class="ketik"></span>
+                        <span class="restaurant-time">$40 min sum</span>
+                    </div>
+                    <div class="restaurant-card">
+                        <img src="./assets/sushi.png" alt="sushi" class="card-img">
+                        <span class="card-text">Sushi</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer ">
+
+        </footer>
+    </body>
+</html>

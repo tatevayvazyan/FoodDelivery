@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-left">
+                <div>
+                    <span class="food-text">Food</span>
+                    <span class="delivery-text">delivery</span>
+                </div>
+                <form class="search-form">
+                    <input
+                        class="search"
+                        type="text"
+                        name="search"
+                        placeholder="Search.."
+                    >
+                    <i class="fa fa-search search-icon"></i>
+                </form> 
+            </div>
+            <div class="header-right">
+                <nav class="header-menu">
+                    <ul class="header-menu-list">
+                        <li class="list-item">Restaurants</li>
+                        <li class="list-item border">Deals</li>
+                        <li class="list-item">My Orders</li>
+                    </ul>
+                </nav>
+                <button class="basket-button">
+                    <i class="fa-solid fa-bag-shopping basket"></i>
+                </button>
+                <div class="avatar">
+                    <img src="./assets/img.png" alt="avatar" class="avatar-img">
+                </div>
+            </div> 
+        </header>
+        <main class="main">
+            <div class="main-form">
+                <div class="left">
+                    <h5 class="setting-title">Settings</h5>
+                    <div class="setting">
+                        <div class="setting-category">
+                            <i class="fas fa-user setting-icon"></i>
+                            <div class="setting-text">
+                                <span class="setting-account">Account</span>
+                                <span class="setting-info">Personal Information</span>
+                            </div>                  
+                        </div>
+                        <div class="setting-category">
+                            <i class="fa fa-map-marker setting-icon"></i>
+                            <div class="setting-text">
+                                <span class="setting-account">Address</span>
+                                <span class="setting-info">Shipping Address</span>
+                            </div>                  
+                        </div>
+                        <div class="setting-category">
+                            <i class="fa fa-credit-card setting-icon"></i>
+                            <div class="setting-text">
+                                <span class="setting-account">Payment method</span>
+                                <span class="setting-info">Connected credit card</span>
+                            </div>                  
+                        </div>
+                        <div class="setting-category">
+                            <i class="fas fa-shield-alt setting-icon"></i>
+                            <div class="setting-text">
+                                <span class="setting-account">Security</span>
+                                <span class="setting-info">Password, 2FA</span>
+                            </div>                  
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <h5 class="account-title">Account</h5>
+                    <div class="account">
+                        <h6 class="account-text">Personal Information</h6>
+                        <span class="account-avatar-text">Avatar</span>
+                        <div class="avatar-func">
+                            <img src="./assets/img.png" alt="avatar" class="account-avatar">
+                            <button class="add-remove change">Change</button>
+                            <button class="add-remove">Remove</button>
+                        </div>
+                        <form class="personal-info">
+                            <div class="personal-info-block">
+                                <label for="first-name" class="personal-info-lable">First Name</label>
+                                <input
+                                    class="personal-info-input"
+                                    type="text"
+                                    name="name"
+                                    placeholder="Jane"
+                                >
+                            </div>
+                            <div class="personal-info-block">
+                                <label for="first-name" class="personal-info-lable">Last Name</label>
+                                <input
+                                    class="personal-info-input"
+                                    type="text"
+                                    name="last-name"
+                                    placeholder="Robertson"
+                                >
+                            </div>
+                            <div class="personal-info-block">
+                                <label for="first-name" class="personal-info-lable">Email</label>
+                                <input
+                                    class="personal-info-input"
+                                    type="email"
+                                    name="email"
+                                    placeholder="jane.robertson@example.com"
+                                >
+                            </div>
+                            <div class="personal-info-block">
+                                <label for="first-name" class="personal-info-lable">Phone Number</label>
+                                <input
+                                    class="personal-info-input"
+                                    type="tel"
+                                    name="tel"
+                                    placeholder="(217) 555-0113"
+                                >
+                            </div>
+                        </form>
+                        <h6 class="notification-title">Email notification</h6>
+                        <form class="notification-form">
+                            <div class="notification-block">
+                                <input type="checkbox" id="new-deals" name="new-deals">
+                                <label for="new-deals" class="notification-label"> New Deals</label>
+                            </div>
+                            <div class="notification-block">
+                                <input type="checkbox" id="new-restaurant" name="new-restaurant">
+                                <label for="vehicle2" class="notification-label">New Restaurants</label>
+                            </div>
+                            <div class="notification-block">
+                                <input type="checkbox" id="order-status" name="order-status">
+                                <label for="vehicle3" class="notification-label">Order Status</label>
+                            </div>    
+                        </form>
+                        <div class="main-footer">
+                            <div class="footer-left">
+                                <button class="footer-buttons log-out">Log Out</button>
+                            </div>
+                            <div class="footer-right">
+                                <button class="footer-buttons">Discard Changes</button>
+                                <button class="footer-buttons save">Save Changes</button>
+                            </div>
+                        </div>  
+                    </div>
+                </div> 
+        </div>
+        </main>
+    </body>
+</html>
